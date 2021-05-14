@@ -27,7 +27,7 @@ function Services() {
                         <span>Services</span>
                     </h1>
                     <div className="services">
-                        {servicesContent.map((service, i) => (
+                        {servicesContent.map((service) => (
                             <div className="service">
                                 <h2
                                     className="f-size-h5 f-weight-bo">
