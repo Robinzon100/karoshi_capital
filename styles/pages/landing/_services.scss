@@ -1,0 +1,54 @@
+.services_main {
+    margin: 15vh 0;
+
+    .services_container {
+        max-width: 44rem;
+        width: 90%;
+        margin: 0 auto;
+
+
+        h1 {
+            margin-bottom: 10vh;
+
+            @media screen and (max-width: 800px) {
+                font-size: 16vw !important;
+            }
+
+            span {
+                background:
+                    linear-gradient(134.74deg,
+                        #00D1EA 9.43%,
+                        #F868EC 47.36%,
+                        #EAFFFF 86.91%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .services {
+            .service {
+                margin-bottom: 8vh;
+
+                h2 {
+                    margin: 0 0 1vh;
+                }
+
+                p {
+                    color: rgba($color: lightgrey, $alpha: 0.8);
+                }
+            }
+
+
+            ul {
+                padding: 0 0 0 1rem;
+                margin-top: -3rem;
+
+                li {
+                    color: rgba($color: lightgrey, $alpha: 0.8);
+                    margin: 1rem 0;
+                }
+            }
+
+        }
+    }
+}

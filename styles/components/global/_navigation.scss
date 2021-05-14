@@ -1,0 +1,33 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #0F1011 0%, rgba(15, 15, 17, 0) 100%);
+    backdrop-filter: blur(43px);
+    width: 100%;
+    z-index: 100;
+
+    .container {
+        max-width: 98rem;
+        width: 90%;
+        margin: 3.6vh auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            li{
+                display: inline-block;
+
+                &:hover{
+                    opacity: 0.5;
+                }
+
+                &:not(:last-child){
+                    margin-right: 4vw;
+                }
+            }
+        }
+    }
+}

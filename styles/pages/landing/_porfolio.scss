@@ -1,0 +1,55 @@
+.portfolio_main {
+    margin: 30vh 0;
+
+    .portfolio_container {
+        max-width: 44rem;
+        width: 90%;
+        margin: 0 auto;
+
+
+
+
+
+        h1 {
+            margin-bottom: 10vh;
+
+            @media screen and (max-width: 800px) {
+                font-size: 16vw !important;
+            }
+
+            span {
+                background:
+                    linear-gradient(134.74deg,
+                        #00D1EA 9.43%,
+                        #F868EC 47.36%,
+                        #EAFFFF 86.91%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+
+    }
+
+    .image {
+        border: 1px solid #4B4C4E;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 21px 48px rgba(0, 0, 0, 0.23), 0px 9px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 25px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('/images/portfolio.png');
+        width: 60%;
+        height: 17vw;
+        margin: 10vh auto;
+
+        @media screen and (max-width: 1100px) {
+            height: 90vh;
+            width: 90%;
+            background-image: url('/images/portfolio_mobile.png') !important;
+        }
+    }
+
+
+}

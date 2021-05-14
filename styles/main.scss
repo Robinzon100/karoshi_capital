@@ -1,10 +1,6 @@
-
 //* ================ ABSTRACTS
 @import "abstracts/variables";
 @import "abstracts/mixins";
-
-//* ================ BASE
-@import "base/base";
 
 
 //* ================ FONTS
@@ -15,11 +11,18 @@
 
 
 
-
-//* ================ PAGE
-@import "pages/index";
+//* ================ BASE
+@import "base/base";
 
 
 //* ================ COMPONENTS
-@import "components/global/navigation/navigation";
+@import "components/global/navigation";
+@import "components/global/buttons";
+
+
+//* ================ PAGE
+@import "pages/landing/hero";
+@import "pages/landing/infos";
+@import "pages/landing/services";
+@import "pages/landing/porfolio";
 
